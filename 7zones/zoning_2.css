@@ -1,0 +1,69 @@
+html, body, div, span, applet, object, iframe, h1, h2, h2, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure,figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-align: center;
+    color: #333;
+} /* code qui permet d'annuler les paramètres de base imposés par le navigateur*/
+
+
+#conteneur{
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+header{
+    height: 70px;
+    width: 100%;
+    line-height: 70px;
+    background-color: rgb(209, 47, 47);
+}
+
+.c1{
+    background-color: rgb(25, 25, 199);
+    float: left;
+    height: 530px;
+    width: 150px;
+    line-height: 530px;
+}
+.c2{
+    background-color: rgb(25, 25, 199);
+    float: left;
+    height: 530px;
+    width: 150px;
+    line-height: 530px;
+}
+
+section{
+    background: #55d87c;
+    float: left;
+    height: 450px;
+    line-height: 530px;
+    width: 500px;
+}
+
+.z1{
+    border: 1px solid;
+    float: left;
+    height: 448px;
+    width: 98px;
+}
+
+
+footer{
+    height: 80px;
+    bottom: 80px;
+    width: 26%; 
+    background-color: rgb(218, 176, 40);
+    line-height: 70px;
+    position: relative;
+    right: -711px;
+}
+
+.clear{
+    clear: both;
+}
