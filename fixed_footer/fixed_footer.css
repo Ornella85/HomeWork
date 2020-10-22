@@ -1,0 +1,22 @@
+header{
+    background-color: pink;
+    height: 90px;
+}
+
+strong{
+    font-size: 30px;
+}
+
+section{
+    height: 700px;
+    
+}
+
+footer{
+    height: 90px;
+    background-color: pink;
+    position: fixed;
+    left: 0;
+    bottom: 10%;
+    width: 2000px
+}
