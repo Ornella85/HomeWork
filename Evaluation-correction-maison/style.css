@@ -1,0 +1,203 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    font-family: 'Caveat Brush', cursive;
+}
+
+header, footer{
+    width: 90%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+header{
+    background-image: url("./img/texture_planches.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 800px
+}
+
+
+nav{
+    width: 100%;
+}
+
+.link{
+    display: block;
+    width: 40%;
+    position: relative;
+    float: left;
+    margin: 0;
+    padding-left: 2em;
+    font-size: 45px;
+}
+
+
+nav ul{
+    margin: 0px;
+    padding: 15px;
+    position: relative;
+    float: right;
+    font-size: 20px;
+}
+
+nav li{
+    list-style-type: none;
+    float: left;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    padding: 20px 30px;
+ }
+
+ .cerf img{
+    position: relative;
+    float: left;
+    width: 20%;
+    height: 20%;
+    margin-top: 250px;
+    margin-left: -50px;
+ }
+
+i{
+    color: rgb(230, 23, 92);
+    font-size: 40px;
+    position: relative;
+    float: right;
+    padding-top: 15vh;
+    margin-right: 91vh;
+}
+
+
+.triangle{
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-top : 230px solid rgb(230, 23, 92, 0.5);
+    border-left : 230px solid transparent;
+    transform: rotate(10deg);
+    position: absolute;
+    margin-top: 350px;
+    margin-left: -320px;
+    z-index: 1;
+}
+
+
+.ourstory{
+    margin: 0 auto;
+    width: 90%;
+    flex-grow: 2;
+}
+
+.asperge{
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    margin: 80px;
+    padding-top: 100px;
+    width: 30%; 
+    height: auto;
+}
+.imgasperge{
+    float: right;
+    width: 60%;
+}
+
+
+.savon{
+    margin: 0 auto;
+    width: 90%;
+}
+.fare{
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    margin: 90px;
+    padding-top: 130px;
+    width: 30%; 
+    height: auto;
+    vertical-align: middle;
+    background-image: url(./img/graines_01.jpg);
+    background-repeat: no-repeat;
+    background-position: top; 
+    background-size: 100px;
+}
+.imgfare{
+    float: left;
+    width: 50%;
+}
+
+
+.local{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.drink{
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    margin: 80px;
+    padding-top: 140px;
+    width: 30%; 
+    height: auto;
+    vertical-align: middle;
+    background-image: url(./img/graines_02.jpg);
+    background-repeat: no-repeat;
+    background-position: top; 
+    background-size: 100px;
+}
+.imgdrink{
+    float: right;
+    width: 60%;
+}
+
+.oeuf{
+   width: 100%;
+   display: inline;
+}
+
+#contact{
+    width: 90%;
+}
+
+.adresse{
+    display: inline-block;
+    float: left;
+    margin: 30px;
+    width: 30%;
+}
+
+.paiement i{
+    display: block;
+    width: 3%;
+    position: relative;
+    float: right;
+    margin: 0;
+    padding-left: 2em;
+    font-size: 15px;
+    
+}
+
+h2, h3{
+    display: inline;
+    border-bottom: 7px solid rgb(230, 24, 91); 
+    font-size: 40px;
+}
+
+.rose{
+    color: rgb(230, 24, 91);
+}
+
+
+.clear{
+    clear: both;
+}
+
+
+
