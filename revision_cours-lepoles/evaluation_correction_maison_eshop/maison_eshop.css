@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*------------- BANDEAU  ----------- */
+.bandeau{
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    padding: 1vh;
+    height: 40px;
+    color: white;
+    font-weight: 500;
+}
+
+em{
+    font-weight: 100;
+}
+
+
+/*------------- HEADER ----------- */
+
+.eshop {
+    height: 250px;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.eshopimg1{
+    width: 20%;
+    height: 150px;
+    padding: 2vh;
+    margin: 2vh;
+
+    position: absolute;
+    left: 70px;
+    top: 40px;
+}
+
+.eshopp{
+    position: absolute;
+    left: 185px;
+    top: 180px;
+    
+}
+
+.eshopdevis{
+    width: 20%;
+    padding: 3vh;
+}
+.eshopconseil{
+    width: 20%;
+    padding: 3vh;
+}
+
+.eshopdevis img, .eshopconseil img{
+    width: 30px;
+}
+
+.eshopdevis p, .eshopconseil p{
+    width: 50%;
+    font-size: 14px;
+    line-height: 11px;
+}
+
+.eshopconseil p img{
+    float: right;
+}
+
+
+/*------------- NAV ----------- */
+
+
+
+
