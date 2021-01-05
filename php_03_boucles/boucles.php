@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les Boucles</title>
+</head>
+
+    <body>
+        <?php
+         $x = 1;
+        //  while($x <= 10){
+        //      echo 'ceci est le nombre : '.$x. '.<br>';
+        //      $x++; // Implante la variable càd correspond à $x = $x + 1
+        //  }
+
+         do{
+             echo 'ceci est le nombre :'.$x.'.<br>';
+             $x++;
+         } while ($x <= 10);
+
+         
+
+        ?>
+       
+
+    </body>
+</html>
